@@ -50,7 +50,7 @@ void draw() {
     
     if ( x > 30 && x < 50  && y > mouseY-50  && y < mouseY+50 ) {//if ball hit bar left
       speedX *= -1;
-      speedY*=1*1;
+      speedY*=1.1;
     }
   
     if ( y > height || y < 0 ) {//if ball hit top
